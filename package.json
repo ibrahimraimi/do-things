@@ -1,0 +1,52 @@
+{
+	"name": "svelte-starter",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"lint": "prettier --check . && eslint .",
+		"format": "prettier --write ."
+	},
+	"author": {
+		"name": "Ibrahim Raimi",
+		"email": "raimiibrahim44@gmail.com",
+		"url": "http://ibrahimraimi.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ibrahimraimi/svelte-starter"
+	},
+	"bugs": {
+		"url": "https://github.com/ibrahimraimi/svelte-starter"
+	},
+	"homepage": "https://github.com/ibrahimraimi/svelte-starter",
+	"license": "MIT",
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^3.2.2",
+		"@sveltejs/kit": "^2.5.18",
+		"@sveltejs/vite-plugin-svelte": "^3.1.1",
+		"@types/eslint": "^8.56.10",
+		"@typescript-eslint/eslint-plugin": "^7.16.0",
+		"@typescript-eslint/parser": "^7.16.0",
+		"autoprefixer": "^10.4.19",
+		"eslint": "^8.57.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-svelte": "^2.41.0",
+		"postcss": "^8.4.39",
+		"postcss-load-config": "^5.1.0",
+		"prettier": "^3.3.2",
+		"prettier-plugin-svelte": "^3.2.5",
+		"prettier-plugin-tailwindcss": "^0.5.14",
+		"svelte": "^4.2.18",
+		"svelte-check": "^3.8.4",
+		"tailwindcss": "^3.4.4",
+		"tslib": "^2.6.3",
+		"typescript": "^5.5.3",
+		"vite": "^5.3.3"
+	},
+	"type": "module"
+}

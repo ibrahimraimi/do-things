@@ -1,5 +1,5 @@
 {
-	"name": "svelte-starter",
+	"name": "do-things",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
@@ -12,18 +12,18 @@
 		"format": "prettier --write ."
 	},
 	"author": {
-		"name": "Ibrahim Raimi",
+		"name": "Ibrahim Raimi <aka: metro>",
 		"email": "raimiibrahim44@gmail.com",
-		"url": "http://ibrahimraimi.com"
+		"url": "http://twitter.com/metro_0x"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/ibrahimraimi/svelte-starter"
+		"url": "https://github.com/ibrahimraimi/do-things"
 	},
 	"bugs": {
-		"url": "https://github.com/ibrahimraimi/svelte-starter"
+		"url": "https://github.com/ibrahimraimi/do-things"
 	},
-	"homepage": "https://github.com/ibrahimraimi/svelte-starter",
+	"homepage": "https://github.com/ibrahimraimi/do-things",
 	"license": "MIT",
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.2.2",

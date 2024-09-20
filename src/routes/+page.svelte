@@ -4,7 +4,7 @@
 	export let data: PageData;
 </script>
 
-<section class="mx-2 my-8 grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-4">
+<section class="my-8 grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-4">
 	{#if data.data.length > 0}
 		{#each data.data as user}
 			<div class="border border-dashed border-gray-400 bg-white p-2">

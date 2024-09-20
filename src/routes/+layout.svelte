@@ -9,7 +9,7 @@
 <Analytics />
 
 <main
-	class="mx-4 mt-4 flex max-w-2xl flex-1 flex-col antialiased md:flex-row lg:mx-auto lg:flex-col"
+	class="mx-4 mt-4 flex max-w-5xl flex-1 flex-col antialiased md:flex-row lg:mx-auto lg:flex-col"
 >
 	<SiteHeader />
 	<slot />
